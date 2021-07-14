@@ -1,0 +1,10 @@
+{% extends "home.html" %}
+{% block content %}
+        {% for post in posts %}
+        <h2><u>{{post.name}} :</u></h2>
+        <h3>{{post.color}} in color and contains {{post.contains}}</h3>
+        <h3>Yeah we did it</h3>
+        {% endfor %}
+{% endblock  %}
+
+

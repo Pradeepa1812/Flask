@@ -1,0 +1,14 @@
+<html>
+    <head>
+        {% if title %}
+        <title>First - {{title}} Page</title>
+        {% else %}
+        <title>Flask Page</title>
+        {% endif %}
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>
