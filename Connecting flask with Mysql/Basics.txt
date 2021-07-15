@@ -1,0 +1,15 @@
+Open Command Prompt and change the directory where the mysql files installed
+In MyCase : C:\mysql\bin>
+
+-->mysql -u root -p
+-->create database flaskapp;
+-->use flaskapp;
+-->create table users(name varchar(20),email varchar(40));
+-->select * from users;
+
+
+Libraries Installation
+
+-->Flask --  python -m pip install flask
+-->MySQLdb-- python -m pip install flask-mysqldb
+-->yaml   -- pip install pyyaml
